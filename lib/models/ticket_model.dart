@@ -3,11 +3,15 @@ class TicketModel {
   final String description;
   final String status;
   final String date;
+  int rating;
+  final String time;
 
-  const TicketModel({
+  TicketModel({
+    this.rating: 0,
     required this.ticketNo,
     required this.description,
     required this.status,
     required this.date,
+    required this.time,
   });
 }

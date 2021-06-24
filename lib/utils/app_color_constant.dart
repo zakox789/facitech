@@ -13,8 +13,11 @@ class ColorConstants {
   static final bgLightColor = Color(0xFFEBF8FB);
   static final bgtColor = Color(0xFFFFFFFF);
   static final activeColor = Color(0xFF0CB500);
+  static final ratingColor = Color(0xFF3FB296);
   static final closeColor = Color(0xFFFE2B00);
-  static final dividerColor = Color(0xFFFE2B00);
+  static final dividerColor = Color(0xFFDFDFDF);
+  static final greyTextColor = Color(0xFFA5A5A5);
+
 
 
 

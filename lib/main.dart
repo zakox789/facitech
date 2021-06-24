@@ -70,7 +70,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                   shape: MaterialStateProperty.all(RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(
-                      Radius.circular(50),
+                      Radius.circular(50.r),
                     ),
                   )),
                 ),
@@ -87,7 +87,7 @@ class MyHomePage extends StatelessWidget {
               child: TabBarView(
                 children: [
                   OpenTicket(),
-                  CloseTicket(),
+                  ClosedTicket(),
                 ],
               ),
             ),
