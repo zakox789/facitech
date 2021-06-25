@@ -88,7 +88,6 @@ class TicketTile extends StatelessWidget {
                       onTap: () async {
                         final _rating = await showRatingDialog(context);
                         if (_rating != null) {
-                          print('KKK: $_rating');
                           onRating!(_rating);
                         }
                       },

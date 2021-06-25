@@ -57,7 +57,6 @@ class _ClosedTicketState extends State<ClosedTicket> {
   }
 
   onRating(double rating, int index) {
-    print('III $index: $rating');
     DB.closedTicket[index].rating = rating;
     setState(() {});
   }
