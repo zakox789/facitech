@@ -1,9 +1,9 @@
 class TicketModel {
   final String ticketNo;
   final String description;
-  final String status;
+  String status;
   final String date;
-  int rating;
+  double rating;
   final String time;
 
   TicketModel({

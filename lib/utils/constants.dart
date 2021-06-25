@@ -15,10 +15,13 @@ class ColorConstants {
   static final activeColor = Color(0xFF0CB500);
   static final ratingColor = Color(0xFF3FB296);
   static final closeColor = Color(0xFFFE2B00);
-  static final dividerColor = Color(0xFFDFDFDF);
+  static final borderColor = Color(0xFFDFDFDF);
   static final greyTextColor = Color(0xFFA5A5A5);
+  static final ratingEmptyColor = Color(0xFFB8C9C5);
+}
 
-
-
-
+class AssetsConstants {
+  AssetsConstants._();
+  static final actor = 'assets/images/actor.png';
+  static final actress = 'assets/images/actress.png';
 }

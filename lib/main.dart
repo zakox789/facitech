@@ -1,10 +1,10 @@
-import 'package:facitech/utils/app_color_constant.dart';
+import 'package:facitech/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'journey/close_ticket.dart';
-import 'journey/open_ticket.dart';
+import 'journey/close_ticket/close_ticket_journey.dart';
+import 'journey/open_ticket/open_ticket_journey.dart';
 import 'widgets/app_bar.dart';
 
 void main() {
@@ -37,13 +37,15 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              height: 48.h,
               color: ColorConstants.primaryColor,
               child: TabBar(
                 indicatorColor: ColorConstants.whiteTextColor,
                 unselectedLabelColor: ColorConstants.whiteLightTextColor,
                 labelColor: ColorConstants.whiteTextColor,
                 labelStyle: TextStyle(fontSize: 14.sp),
+                labelPadding: EdgeInsets.symmetric(
+                  vertical: 16.h,
+                ),
                 tabs: [
                   Text(
                     'Open Tickets',
